@@ -3,6 +3,19 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>OPML.Core</RootNamespace>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Aleksandr Vakhtin</Authors>
+    <PackageLicenseUrl>https://github.com/BallOfDestruction/OPML/Licence</PackageLicenseUrl>
+    <Owners>Aleksandr Vakhtin</Owners>
+    <PackageProjectUrl>https://github.com/BallOfDestruction/OPML</PackageProjectUrl>
+    <Summary>OPML Parser</Summary>
+    <PackageTags>OPML</PackageTags>
+    <Title>OPML</Title>
+    <Description>OPML Parser</Description>
+    <PackageId>OPML</PackageId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
 </Project>
